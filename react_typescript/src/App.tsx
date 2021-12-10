@@ -1,4 +1,5 @@
 import './App.css';
+import { Counter } from './components/Class/Counter';
 // import { UserContextProvider } from './components/Context/UserContext';
 // import { User } from './components/Context/User';
 // import { Container } from './components/Container';
@@ -16,7 +17,7 @@ function App() {
 
     return(
     <div>
-
+<Counter message={"count has increased by 1"}/>
   </div>
   );
 }
