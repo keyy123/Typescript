@@ -1,0 +1,63 @@
+  // const personName = {
+  //   fName:'Bruce',
+  //   lName:'Wayne'
+  // }
+
+  // const fullName =[
+  //   {
+  //     fname: "Kheyyon",
+  //     mname: "Deshawn",
+  //     lname: "Parker"
+  //   },
+  //   {
+  //     fname: "Khayyon",
+  //     mname: "Aamir",
+  //     lname: "Parker"
+  //   },
+  //   {
+  //     fname: "Tyree",
+  //     mname: "Malik",
+  //     lname: "Tate"
+  //   }
+  // ]
+  // return (
+  //   <div className="App">
+  //    <Greet 
+  //    name="Kheyyon" 
+  //    messageCount={10}
+  //    isLoggedIn={false}
+  //    />
+  //   <p><Person name={personName}/></p>
+  // {/* name props value is an object called personName - remember this! */}
+  //   <PersonList name={fullName}/>
+  //   </div>
+  
+  // <Status status='loading'/>
+  // <Heading>Dummy Text</Heading>
+  // <Oscar>
+  //   <Heading>Oscar goes to...</Heading>
+  // </Oscar>
+  // <Greet name="Kheyyon " isLoggedIn={true}/>
+
+  {/* <Button handleClick={(e, id)=>{
+  console.log('Clicked',e, id)
+}}/>
+<Input
+ value=""
+ handleChange={(e)=>{
+   console.log('Button Pressed', e)
+ }}
+/> */}
+
+      <Container styles={{border: '1px solid black', padding: '1rem'}}/>
+      {/* Using Typescript for CSS is huge benefit b/c it allows you to get spell check for CSS props instead of
+      wondering why they don't work when you run the page - it also works if you use the weong value or prop */}
+
+
+<ThemeContextProvider>
+  <Box />
+</ThemeContextProvider>
+
+<UserContextProvider>
+  <User/>
+</UserContextProvider>
